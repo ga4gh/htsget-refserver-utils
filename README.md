@@ -22,7 +22,7 @@ go build -o ./htsget-refserver-utils .
 
 Install binary to $GOBIN:
 ```
-go get -u "go get -u "github.com/ga4gh/htsget-refserver-utils"
+go get -u "github.com/ga4gh/htsget-refserver-utils"
 go install "github.com/ga4gh/htsget-refserver-utils"
 htsget-refserver-utils
 ```
