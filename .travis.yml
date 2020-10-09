@@ -1,0 +1,9 @@
+language: go
+go:
+    - 1.13
+before_install:
+    - go get github.com/mattn/goveralls
+script:
+    - go test ./...
+after_success:
+    - $HOME/gopath/bin/goveralls -v -service=travis-ci
